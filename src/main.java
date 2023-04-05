@@ -6,7 +6,7 @@ public class main {
         int bonus;
         int finalScore;
         if (depositAmount > 1000) {
-            bonus = depositAmount/ 100;
+            bonus = depositAmount / 100;
             finalScore = initialAccount + depositAmount + bonus;
         } else {
             bonus = 0;
