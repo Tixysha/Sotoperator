@@ -1,19 +1,19 @@
 public class main {
     public static void main(String[] args) {
-        int initial_account = 100;
-        int deposit_amount = 1100;
+        int initialAccount = 100;
+        int depositAmount = 1100;
 
         int bonus;
-        int final_score;
-        if (deposit_amount > 1000) {
-            bonus = deposit_amount / 100;
-            final_score = initial_account + deposit_amount + bonus;
+        int finalScore;
+        if (depositAmount > 1000) {
+            bonus = depositAmount/ 100;
+            finalScore = initialAccount + depositAmount + bonus;
         } else {
             bonus = 0;
-            final_score = initial_account + deposit_amount;
+            finalScore = initialAccount + depositAmount;
         }
 
-        System.out.println("Итоговый счет: " + final_score);
+        System.out.println("Итоговый счет: " + finalScore);
         System.out.println("Количество бонусных рублей: " + bonus);
     }
 }
